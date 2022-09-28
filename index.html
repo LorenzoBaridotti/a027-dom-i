@@ -13,11 +13,15 @@
 <body>
   <main>
     <ul id="lista-de-frutas">
-      <li id="fruta-1"></li>
-      <li id="fruta-2"></li>
-      <li id="fruta-3"></li>
-      <li id="fruta-4"></li>
+      <li id="fruta1"></li>
+      <li id="fruta2"></li>
+      <li id="fruta3"></li>
+      <li id="fruta4"></li>
     </ul>
+    <label for="fruta">Digite uma fruta:</label>
+    <input onkeyup="imprimirFruta()" type="fruta" id="fruta" name="fruta" value="" />
+    <br />
+    <button onclick="addFruta()">Adicionar</button>
   </main>
 </body>
 
